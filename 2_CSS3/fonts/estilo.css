@@ -19,6 +19,13 @@
     to {left: 500px;}
 }
 
+@keyframes animacao5 {
+    0% {left: 0;}
+    25% {left: 20px; background-color: blue;}
+    57% {left: 100px; background-color: orange;}
+    100% {right: 30px; background-color: red;}
+}
+
 .animation-div {
     width: 100px;
     height: 100px;
@@ -75,4 +82,68 @@
 
 #animation-div8 {
     animation-timing-function: ease-in-out;
+}
+
+#animation-div9  {
+    background-color: darkblue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: animacao5 7s ease-out 2s infinite;
+}
+.btn {
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 75px;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #333;
+    border: 4px solid #333;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn:hover {
+    color: #333;
+    background-color: #FFF;
+}
+.trasition {
+    width: 50px;
+    height: 100px;
+    background-color: red;
+}
+
+.div-calc {
+    height: 250px;
+    width: 500px;
+    position: relative;
+    margin: 20px;
+    background-color: #000;
+    border: 1px solid red;
+}
+
+.innerdiv-calc {
+    height: 45px;
+    margin: 15px;
+    position: relative;
+    background-color: red;
+}
+
+.calc1 {
+    width: calc(50% + 50px);
+}
+
+.calc2 {
+    width: calc(50% - 50px);
+}
+
+.calc3 {
+    width: calc(50% * 0,5);
+    margin: 0;
+}
+
+.calc4 {
+    width: calc(50% / 2);
 }
