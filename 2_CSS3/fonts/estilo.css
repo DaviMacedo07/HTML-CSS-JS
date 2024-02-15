@@ -147,3 +147,45 @@
 .calc4 {
     width: calc(50% / 2);
 }
+
+
+
+.gradient1 {
+    background-image: linear-gradient(purple,blue);
+}
+
+.gradient2 { 
+    background-image: linear-gradient(to right , purple, blue );
+}
+.gradient3 { 
+    background-image: linear-gradient(to left , red, yellow );
+}
+
+.gradient4 { 
+    background-image: linear-gradient(to top , red, yellow );
+}
+
+.gradient5 { 
+    background-image: linear-gradient( green, yellow, orange, grey );
+}
+.gradient-box {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 30px;
+}
+
+.gradient7 { 
+    background-image: radial-gradient(red, blue, green);
+}
+
+.gradient8 {
+    background-image: radial-gradient(red 10%, blue 30%, green 50%);
+}
+
+.gradient9 {
+    background-image: radial-gradient(circle, red, blue, green);
+}
+
+
+
