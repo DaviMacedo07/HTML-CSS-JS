@@ -122,12 +122,88 @@ section {
 .sessao-descricao {
     position: absolute;
     left: 370px;
-    padding-right: 30px;
+    padding-right: 40px;
 }
 
-sessao-descricao > p{
+.sessao-descricao p {
     line-height: 2;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 30px;
     margin-left: 25px;
+}
+
+.sessao-bemvindo-btn, form input[type = submit] {
+    background-color: #F2B3DC;
+    text-decoration: none;
+    color: #000000;
+    padding: 16px 59px 19px 36px;
+    transition: 0.5s;
+    display: block;
+    width: 100px;
+    text-align: center;
+    border: groove;
+    border-color: #ffdcdc;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.sessao-bemvindo-btn:hover , form input[type = submit]:hover {
+    background-color: #F2E9B3;
+}
+
+
+
+
+
+#sessao-sobre .sessao-minibanner {
+    float: right;
+    margin-right: 5px;
+    background-image: url("../2_CSS3/img-doceria/banner4.jpg");
+}
+
+#sessao-sobre .sessao-descricao {
+    position: absolute;
+    left: 25px;
+    width: calc(100% - 400px);
+}
+
+
+.banner-galeria {
+    background-position: center;
+    background-repeat: cover;
+    display: inline-block;
+    height: 200px;
+}
+
+#sessao-doces1, #sessao-doces2, #sessao-doces3 {
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.doces1-imgs {
+    width: 18,8%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+#img1 {
+    background-image: url("../2_CSS3/img-doceria/galeria1.jpg");
+    margin-left: 0px;
+}
+
+#img2 {
+    background-image: url("../2_CSS3/img-doceria/galeria2.jpg");
+}
+
+#img3 {
+    background-image: url("../2_CSS3/img-doceria/galeria3.jpg");
+}
+
+#img4 {
+    background-image: url("../2_CSS3/img-doceria/galeria4.jpg");
+    margin-right: 0px;
+}
+
+#img5 {
+    background-image: url("../2_CSS3/img-doceria/galeria5.jpg");
 }
