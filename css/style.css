@@ -103,3 +103,31 @@ section {
     margin-top: 70px;  
 }
 
+#sessao-bemvindo::after, #sessao-sobre::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+.sessao-minibanner {
+    width: 300px;
+    height: 400px;
+    background-image: url("../2_CSS3/img-doceria/banner3.jpg");
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.sessao-descricao {
+    position: absolute;
+    left: 370px;
+    padding-right: 30px;
+}
+
+sessao-descricao > p{
+    line-height: 2;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
